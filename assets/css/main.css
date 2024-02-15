@@ -1,0 +1,79 @@
+*{
+    font-family: "Cabin", sans-serif;}
+:root{
+    --main:black;
+    --second:#F0EEEB;   
+}
+header{
+    background-color: var(--main);
+    text-align: center;
+    padding: 2px;
+    & a{
+        color: white;
+    }
+}
+nav , .section1{
+    background-color: var(--second) !important;
+}
+.nav-link:hover{
+    color: black !important;
+}
+.btn-one{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease-in;
+}
+.btn-one:hover{
+    background-color: #5A5444 !important;
+}
+
+.btn-two{
+    background-color: transparent;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.section3 .container {
+    background-color: var(--second);
+    border-radius: 20px;
+  }
+  footer{
+    background-color: black;
+    padding: 15px;
+    cursor: pointer;
+    & h4{
+        color: white !important;
+    }
+  }
+  a{
+    color: #5A5444 !important;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(37, 37, 37);
+    border-radius: 25px;
+
+  }
+  
